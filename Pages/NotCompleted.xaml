@@ -1,0 +1,15 @@
+﻿<Page x:Class="MielLauncher.Pages.NotCompleted"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MielLauncher.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="NotCompleted">
+
+    <Grid>
+        <TextBlock Margin="20, 20, 20, 20" HorizontalAlignment="Left" VerticalAlignment="Top" Text="此页面功能未完成" FontSize="50"/>
+        <TextBlock Margin="20, 100, 20, 20" Text="By Bilibili @_Windows11_，此版本下载站请注明出处" FontSize="15"/>
+    </Grid>
+</Page>
