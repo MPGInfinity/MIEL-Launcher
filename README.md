@@ -1,5 +1,6 @@
-# MIEL
-MIEL Launcher Source Code
+# MIEL 启动器开源地址
+
+启动器下载地址: [Releases](https://github.com/MPGInfninity/MIEL-Launcher/releases/)
 
 ---
 
