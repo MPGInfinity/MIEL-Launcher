@@ -113,13 +113,11 @@ namespace MielLauncher.Classes.Net
                 stream.Close();
                 fstream.Close();
                 response.Close();
-                //            Console.SetCursorPosition(0, Console.CursorTop);
                 Console.Write("[Info][Downloader] {0}/{1}MB, ", ++downloadingInformation.finished, downloadingInformation.blocks);
                 Console.WriteLine((100.0 * downloadingInformation.finished / downloadingInformation.blocks).ToString("0.00") + "%");
                 info.progressCallBack((int) (100.0 * downloadingInformation.finished / downloadingInformation.blocks));
                 if (downloadingInformation.finished == downloadingInformation.blocks)
                 {
-                    //通知主线程结束
                     manualResetEvent.Set();
                 }
             }
